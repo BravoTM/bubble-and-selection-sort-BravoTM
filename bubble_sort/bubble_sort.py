@@ -1,11 +1,4 @@
 def bubble_sort(unsorted_list):
-    """
-    Sorts a list in ascending order using the bubble sort algorithm.
-    Args:
-        unsorted_list: The list to be sorted (can contain integers, floats, etc.)
-    Returns:
-        A new list containing all elements from unsorted_list in ascending order
-    """
     # Create a copy to avoid modifying the original list
     sorted_list = unsorted_list.copy()
     n = len(sorted_list)
